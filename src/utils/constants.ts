@@ -1,0 +1,5 @@
+const LOCATION_CARDS_SHOWN = 6;
+
+const FORM_STATE_DURATION = 1250; // milliseconds
+
+export { LOCATION_CARDS_SHOWN, FORM_STATE_DURATION };
