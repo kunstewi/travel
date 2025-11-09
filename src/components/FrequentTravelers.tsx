@@ -1,7 +1,7 @@
 import type { MouseEvent, useState } from "react";
 import { AnimatePresence, motion } from "motion/react";
 import { useFormAndValidation } from "../hooks/useFormAndValidation";
-import Checkmark from "./Icons/Checkmark";
+import Checkmark from "./Icons/CheckMark";
 import useInsertLead from "../hooks/useInsertLead";
 import { FORM_STATE_DURATION } from "../utils/constants";
 
