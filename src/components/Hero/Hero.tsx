@@ -1,10 +1,11 @@
 import { heroBenefits } from "../../utils/content";
 import HeroBenefit from "./HeroBenefit";
 
+
 export default function Hero() {
   return (
     <section className="relative m-auto max-w-[108rem]">
-      <div className="relative flex items-center justify-center rounded-[2.25rem] bg-[url('/hero.webp')] bg-cover bg-bottom pb-[56.25%] max-lg:rounded-3xl max-md:pb-[80%] max-sm:pb-[130%]">
+      <div className="relative flex items-center justify-center rounded-[2.25rem] bg-[url('hero.webp')] bg-cover bg-bottom pb-[56.25%] max-lg:rounded-3xl max-md:pb-[80%] max-sm:pb-[130%]">
         {" "}
         <div className="absolute top-0 right-0 bottom-0 left-0 flex justify-center text-center">
           <div className="max-md:px-6">
