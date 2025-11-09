@@ -1,11 +1,6 @@
-import type {
-  useContext,
-  createContext,
-  useState,
-  ReactElement,
-  Dispatch,
-  SetStateAction,
-} from "react";
+import { useContext, createContext, useState } from "react";
+
+import type { ReactElement, Dispatch, SetStateAction } from "react";
 
 interface Props {
   children: ReactElement;

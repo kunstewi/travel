@@ -1,4 +1,5 @@
-import type { MouseEvent, useState } from "react";
+import { useState } from "react";
+import type { MouseEvent } from "react";
 import { AnimatePresence, motion } from "motion/react";
 import { useFormAndValidation } from "../hooks/useFormAndValidation";
 import Checkmark from "./Icons/CheckMark";

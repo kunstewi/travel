@@ -1,4 +1,5 @@
-import type { useState, ChangeEvent } from "react";
+import { useState } from "react";
+import type { ChangeEvent } from "react";
 
 interface FormValues {
   [key: string]: string;
