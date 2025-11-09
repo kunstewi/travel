@@ -1,4 +1,4 @@
-import swimmingDudes from "../../../public/swimmingDudes.webp";
+const swimmingDudes = "/swimmingDudes.webp";
 import { steps } from "../../utils/content";
 import Rating from "./Rating";
 
